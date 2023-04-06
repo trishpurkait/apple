@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+}
+
+.main{
+    width:100%;
+  background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(i.jpeg);
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+}
+.navbar{
+    width:100vw;
+    height:80px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.479);
+}
+.icon{
+    width:50vw;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color:whitesmoke;
+    font-size: 60px;
+    font-family: Arial;
+    padding-left: 15px;
+    float: left;
+    padding-top: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.menu{
+    width:400px;
+    float: left;
+    height: 70px;
+}
+.navbar ul{
+    float: left;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul li{
+    list-style: none;
+    margin-top: 27px;
+    margin-left: 62px;
+    font-size: 14px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: green;
+    font-size: 14px;
+}
+
+
+#content{
+    height: 40vh;
+}
+
+#main{
+    padding: 100px;
+}
+
+#main h1{
+    font-size: 55px;
+    font-weight: 900;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#main p{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    line-height: 20px;
+}
+
+button{
+    width: 90px;
+    height: 50px;
+    background-color:white;
+    padding: 10px;
+    border-color:rgb(47, 255, 151);
+    border-radius: 20px;
+    outline-color: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.no1{
+    padding: 20px 50px;
+    margin: 30px 80px;
+    height: 45vh;
+    width: 20vw;
+}
+
+.no1 h3{
+    line-height: 80px;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;    
+}
+
+.no1 button.cn { 
+    width: 105px;
+    height: 40px;
+    background-color:rgb(5, 133, 82);
+    padding: 10px;
+    border-color:black;
+    border-radius: 20px;
+    outline-color: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.no1 p{
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#kk3rd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.d1{
+    padding: 20px 50px;
+    margin: 30px 80px;
+    height: 45vh;
+    width: 20vw;
+}
+.d1 h3, .p1 h3{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+.d1 p, .d1 a{
+    color: rgb(189, 193, 194);
+    font-size: 12px;
+    line-height: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-ser
+}
+span{
+    font-weight: 900;
+    color: rgb(232, 235, 236);
+}
+
+.d1 button, #email, .d1 textarea{
+    margin-top: 25px;
+}
+
+.d1 textarea{
+    height: 100px;
+    width: 15vw;
+    padding: 3%;
+    background-color: rgba(94, 94, 94, 0.555);
+    border-color:  rgba(94, 94, 94, 0.555);
+}
+
+.d1 input{
+    padding: 3%;
+    width: 15vw;
+    background-color: rgba(94, 94, 94, 0.555);
+    border-color:  rgba(94, 94, 94, 0.555);
+}
+.d1 button.cn { 
+    height: 40px;
+    background-color:rgb(5, 133, 82);
+    padding: 10px;
+    border-color:black;
+    border-radius: 20px;
+    outline-color: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    background-color:gray;
+}
+.p1{
+    padding: 20px 60px;
+    margin: 30px 80px;
+    height: 25vh;
+    width: 10vw;
+}
+
+.p1 a{
+    text-decoration: underline;
+    font-weight: 400;
+    font-size: 15px;
+    
+}
+.p1 h3{
+    text-decoration: underline;
+    font-weight: 600;
+}
+.p1 li{
+    margin-top: 10px;
+}
+.p1 li a{
+    color: aliceblue;
+    text-decoration: none;
+}
